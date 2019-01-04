@@ -1,0 +1,14 @@
+[[package]]
+name = "cache"
+version = "0.1.0"
+source = "git+https://github.com/nareshganduri/Cache.git#0ed4774988271dc7282050d556e943d79424b5d3"
+
+[[package]]
+name = "datetime"
+version = "0.1.0"
+dependencies = [
+ "cache 0.1.0 (git+https://github.com/nareshganduri/Cache.git)",
+]
+
+[metadata]
+"checksum cache 0.1.0 (git+https://github.com/nareshganduri/Cache.git)" = "<none>"
